@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout8"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#948973">
+
+    <ImageView
+        android:id="@+id/imageView59"
+        android:layout_width="418dp"
+        android:layout_height="386dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="344dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/viner" />
+
+    <Button
+        android:id="@+id/trener"
+        android:layout_width="342dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="299dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="364dp"
+        android:background="@drawable/biceps_button"
+        android:text="немного о нашем тренере"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/vk"
+        android:layout_width="101dp"
+        android:layout_height="81dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="402dp"
+        android:layout_marginEnd="269dp"
+        android:layout_marginBottom="248dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/vk" />
+
+    <ImageButton
+        android:id="@+id/insta"
+        android:layout_width="101dp"
+        android:layout_height="81dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="503dp"
+        android:layout_marginEnd="269dp"
+        android:layout_marginBottom="147dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/inst" />
+
+    <ImageButton
+        android:id="@+id/gmail"
+        android:layout_width="101dp"
+        android:layout_height="81dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="605dp"
+        android:layout_marginEnd="269dp"
+        android:layout_marginBottom="45dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/gmail2" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="174dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="192dp"
+        android:layout_marginTop="416dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="257dp"
+        android:text="Следите за нами в ВК"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="174dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="192dp"
+        android:layout_marginTop="515dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="158dp"
+        android:text="Следите за нами в Instagram"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView54"
+        android:layout_width="192dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="192dp"
+        android:layout_marginTop="605dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="47dp"
+        android:text="Напишите нам на почту, если возникли вопросы"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

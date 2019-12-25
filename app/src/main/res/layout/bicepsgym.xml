@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6e664c"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="1.Сгибания рук со штангой"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/bic1" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Сгибание рук со штангой - самое популярное упражнение в тренажерных залах. Является основным упражнением для развития двуглавой мышцы плеча (бицепс), а также внутренней поверхности предплечий."
+                android:textAlignment="center"
+                android:textColor="#3F3434"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="2.Сгибания рук с гантелями"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/bic2" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Сгибания рук с гантелями – одно из лучших упражнений в бодибилдинге, для тренировки бицепсов. Здесь мы рассмотрим все варианты выполнения этого изолирующего упражнения."
+                android:textAlignment="center"
+                android:textColor="#3F3434"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editText4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text='3.Сгибание "Молоток"'
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/bic3" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Молоток - изолирующее упражнение в бодибилдинге, направленное на развитие бицепса и плечевой мышцы (брахиалиса)."
+                android:textAlignment="center"
+                android:textColor="#3F3434"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editText5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="4.Сгибания рук на нижнем блоке"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/bic4" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Сгибания рук на нижнем блоке - упражнение в бодибилдинге, для изолированной проработки двуглавой мышцы плеча (бицепса)."
+                android:textColor="#3F3434"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editText6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="5.Сгибания рук на скамье Скотта"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/bic5" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Сгибания рук на скамье Скотта - упражнение в бодибилдинге, для целенаправленной тренировки двуглавой мышцы плеча (бицепса)."
+                android:textAlignment="center"
+                android:textColor="#3F3434"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editText7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="6.Концентрированный подъем "
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/bic7" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Особенность данного упражнения в большой амплитуде движения и мощном пиковом сокращении в верхней точке. Максимальную нагрузку в этом упражнении получает бицепс."
+                android:textAlignment="center"
+                android:textColor="#3F3434"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

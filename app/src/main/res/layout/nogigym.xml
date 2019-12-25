@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6e664c"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editText22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="1.Приседания со штангой"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/nogigym1" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Приседания со штангой – это одно из основных базовых упражнений в пауэрлифтинге и бодибилдинге для тренировки мышц ног и ягодичных."
+                android:textAlignment="center"
+                android:textColor="#3F3434"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editText23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="2.Сгибание ног в тренажере"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/nogigym2" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Сгибание ног в тренажере - является изолированным упражнением и направлено на проработку группы мышц-сгибателей бедра."
+                android:textAlignment="center"
+                android:textColor="#3F3434"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editText24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="3.Становая тяга"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/nogigym3" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Отличное базовое упражнение, прокачивающее мышцы бедра, ягодиц, а также нижней части спины"
+                android:textAlignment="center"
+                android:textColor="#3F3434"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editText25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="4.Жим ногами"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/nogigym4" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Жим ногами - является базовым упражнением в бодибилдинге. Используется для проработки мышц ног с дополнительной нагрузкой на ягодичные мышцы."
+                android:textAlignment="center"
+                android:textColor="#3F3434"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editText26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="5.Приседания со штангой над головой"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/nogigym5" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Приседания со штангой над головой - упражнение, которое развивает гибкость тела, силу и равновесие. В кроссфите считается, что приседания оверхэд - это основа силовой подготовки."
+                android:textAlignment="center"
+                android:textColor="#3F3434"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editText27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="6.Гакк-приседания"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/nogigym6" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Гакк-приседания - базовое упражнение в бодибилдинге, которое воздействует на квадрицепсы, бицепсы бедер и ягодичные мышцы."
+                android:textAlignment="center"
+                android:textColor="#3F3434"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

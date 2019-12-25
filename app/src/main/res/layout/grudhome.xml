@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6e664c"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editText18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="1.Отжимания от пола"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/grudhome1" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Отжимания от пола яляется базовым упражнением, активно влияющее на рост грудных мышц и трицепсов"
+                android:textAlignment="center"
+                android:textColor="#3F3434"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editText19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="2.Отжимания на брусьях"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/grudhome2" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Отжимания на брусьях - одно из важнейших базовых упражнений в достижении гипертрофии грудных мышц и трицепсов."
+                android:textAlignment="center"
+                android:textColor="#3F3434"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editText20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="3.Жим гантелей лежа"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/grud2" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Данное упражнение является уникальным, так как его можно делать и в зале, и в домашних условиях"
+                android:textAlignment="center"
+                android:textColor="#3F3434"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editText21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="4.Растяжка грудных мышц"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/grudhome3" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Растяжка грудных мышц – очень полезная и важная часть тренировки, как для мужчин, так и для женщин."
+                android:textAlignment="center"
+                android:textColor="#3F3434"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6e664c"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editText49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="1.Обратные отжимания"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView54"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/trich1" />
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Обратные отжимания - упражнение в бодибилдинге, направленное на развитие трехглавой мышцы плеча (трицепс) и передней части дельтовидных мышц."
+                android:textAlignment="center"
+                android:textColor="#3F3434"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editText50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="2.Отжимания на брусьях"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/tricgym4" />
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Отжимания на брусьях - одно из важнейших базовых упражнений в достижении гипертрофии грудных мышц и трицепсов."
+                android:textAlignment="center"
+                android:textColor="#3F3434"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editText51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="3.Отжимания от пола "
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/tricgym5" />
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Упражнение, включающее в работу грудные мышцы и трицепс. Базовое урпажнение, положительно влияющее на рост мышц"
+                android:textAlignment="center"
+                android:textColor="#3F3434"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editText52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="4.Растяжка трицепсов"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView57"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/trichome2" />
+
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Растяжка трицепсов поможет ускорить восстановление мышц и повысит скорость их роста, если вы занимаетесь силовыми упражнениями.а рост мышц"
+                android:textAlignment="center"
+                android:textColor="#3F3434"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="riple_effect">#d1b65e</color>
+    <color name="button_start">#877b52</color>
+    <color name="button_start_stroke">#6e664c</color>
+    <color name="contact">#a39c86</color>
+    <color name="contact_stroke">#c4b993</color>
+</resources>

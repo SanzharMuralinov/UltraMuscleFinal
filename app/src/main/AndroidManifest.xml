@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ultramuscle">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".FragmentStartPage">
+            <intent-filter>
+                <action android:name="com.example.ultramuscle.FragmentStartPage" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".FragmentSecondPage">
+            <intent-filter>
+                <action android:name="com.example.ultramuscle.FragmentSecondPage" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".SecondPage">
+            <intent-filter>
+                <action android:name="com.example.ultramuscle.SecondPage" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Contact">
+            <intent-filter>
+                <action android:name="com.example.ultramuscle.Contact" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".BicepsFiles.Biceps">
+            <intent-filter>
+                <action android:name="com.example.ultramuscle.BicepsFiles.Biceps" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".TricepsFiles.Triceps">
+            <intent-filter>
+                <action android:name="com.example.ultramuscle.TricepsFiles.Triceps" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".NogiFiles.Nogi">
+            <intent-filter>
+                <action android:name="com.example.ultramuscle.NogiFiles.Nogi" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".PlechiFiles.Plechi">
+            <intent-filter>
+                <action android:name="com.example.ultramuscle.PlechiFiles.Plechi" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".GrudFiles.Grud">
+            <intent-filter>
+                <action android:name="com.example.ultramuscle.GrudFiles.Grud" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".GrudFiles.AboutGrud">
+            <intent-filter>
+                <action android:name="com.example.ultramuscle.GrudFiles.AboutGrud" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".GrudFiles.GrudHome">
+            <intent-filter>
+                <action android:name="com.example.ultramuscle.GrudFiles.GrudHome" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".GrudFiles.GrudGym">
+            <intent-filter>
+                <action android:name="com.example.ultramuscle.GrudFiles.GrudGym" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".BicepsFiles.AboutBiceps">
+            <intent-filter>
+                <action android:name="com.example.ultramuscle.BicepsFiles.AboutBiceps" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".BicepsFiles.BicepsHome">
+            <intent-filter>
+                <action android:name="com.example.ultramuscle.BicepsFiles.BicepsHome" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".BicepsFiles.BicepsGym">
+            <intent-filter>
+                <action android:name="com.example.ultramuscle.BicepsFiles.BicepsGym" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".NogiFiles.AboutNogi">
+            <intent-filter>
+                <action android:name="com.example.ultramuscle.NogiFiles.AboutNogi" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".NogiFiles.NogiHome">
+            <intent-filter>
+                <action android:name="com.example.ultramuscle.NogiFiles.NogiHome" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".NogiFiles.NogiGym">
+            <intent-filter>
+                <action android:name="com.example.ultramuscle.NogiFiles.NogiGym" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".PlechiFiles.AboutPlechi">
+            <intent-filter>
+                <action android:name="com.example.ultramuscle.PlechiFiles.AboutPlechi" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".PlechiFiles.PlechiHome">
+            <intent-filter>
+                <action android:name="com.example.ultramuscle.PlechiFiles.PlechiHome" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".PlechiFiles.PlechiGym">
+            <intent-filter>
+                <action android:name="com.example.ultramuscle.PlechiFiles.PlechiGym" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".TricepsFiles.AboutTriceps">
+            <intent-filter>
+                <action android:name="com.example.ultramuscle.TricepsFiles.AboutTriceps" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".TricepsFiles.TricepsGym">
+            <intent-filter>
+                <action android:name="com.example.ultramuscle.TricepsFiles.TricepsGym" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".TricepsFiles.TricepsHome">
+            <intent-filter>
+                <action android:name="com.example.ultramuscle.TricepsFiles.TricepsHome" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".VK">
+            <intent-filter>
+                <action android:name="com.example.ultramuscle.VK" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Insta">
+            <intent-filter>
+                <action android:name="com.example.ultramuscle.Insta" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Gmail">
+            <intent-filter>
+                <action android:name="com.example.ultramuscle.Gmail" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Trener">
+            <intent-filter>
+                <action android:name="com.example.ultramuscle.Trener" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+
+
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+
+
+
+
+</manifest>

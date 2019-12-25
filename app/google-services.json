@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "740525718631",
+    "firebase_url": "https://chat-program-18e50.firebaseio.com",
+    "project_id": "chat-program-18e50",
+    "storage_bucket": "chat-program-18e50.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:740525718631:android:eac2bca345e185f9e968c2",
+        "android_client_info": {
+          "package_name": "com.example.ultramuscle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "740525718631-9c1h9kbo2ribf5tn8jtn0tv63b9e049o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ultramuscle",
+            "certificate_hash": "abdd660973a324cc8fcdedca39b584eadbf3c03c"
+          }
+        },
+        {
+          "client_id": "740525718631-ec6oetfacdfkd9827o0rd5j7oqamm5b3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZ6fd7lgjfI4wJY48XU3vNo7CCp99RTY0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "740525718631-ec6oetfacdfkd9827o0rd5j7oqamm5b3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

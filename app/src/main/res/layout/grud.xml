@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="596dp"
+        android:layout_height="892dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fon9" />
+
+    <Button
+        android:id="@+id/buttongrud1"
+        android:layout_width="233dp"
+        android:layout_height="94dp"
+        android:layout_marginStart="162dp"
+        android:layout_marginTop="174dp"
+        android:layout_marginEnd="161dp"
+        android:layout_marginBottom="509dp"
+        android:background="@drawable/biceps_button"
+        android:text="Упражнения дома"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttongrud2"
+        android:layout_width="233dp"
+        android:layout_height="94dp"
+        android:layout_marginStart="162dp"
+        android:layout_marginTop="339dp"
+        android:layout_marginEnd="161dp"
+        android:layout_marginBottom="344dp"
+        android:background="@drawable/biceps_button"
+        android:text="Упражнения в зале"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttongrud3"
+        android:layout_width="233dp"
+        android:layout_height="94dp"
+        android:layout_marginStart="162dp"
+        android:layout_marginTop="496dp"
+        android:layout_marginEnd="161dp"
+        android:layout_marginBottom="187dp"
+        android:background="@drawable/biceps_button"
+        android:text="подробнее о тренировках груди"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
